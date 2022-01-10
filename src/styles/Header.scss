@@ -1,0 +1,7 @@
+.nav{display:flex; justify-content: flex-end; position: relative; background-color: #60dfcd;
+background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);
+height: 60px; align-items: center; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;
+  .logo{position: absolute; left:30px; color:#fff}
+  a{margin-right:20px; padding:0 10px; color:#fff; text-decoration: none;}
+  a.active{background:#fff; color:#1e9afe; padding:10px; border-radius: 6px; }
+}

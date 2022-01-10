@@ -1,0 +1,9 @@
+.list{margin-top: 30px; width: 50%;
+  ul{padding:0px}
+  li{padding:10px 15px; list-style-type: none; border-bottom: 1px solid #000; width: 100%;
+  display: flex; justify-content: space-between;
+  i{margin:0 10px; cursor: pointer;}
+  }
+  li:hover{background:rgba(232, 230, 230, 0.8);}
+  li:last-child{border-bottom: none;}
+}

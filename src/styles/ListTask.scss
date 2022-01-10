@@ -1,0 +1,6 @@
+.list_task{ 
+  ul{padding:0;}
+  li{margin-bottom: 10px; background:rgba(255, 255, 255, 0.741); padding: 10px; position: relative; cursor: pointer;
+    i{position: absolute; right:15px; top:12px;}
+  }
+}

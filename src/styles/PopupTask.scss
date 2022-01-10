@@ -1,0 +1,10 @@
+.popup_task{background:rgba(53, 52, 52, 0.5); position: fixed; width:100%; height: 100vh; display: flex; align-items: center; justify-content: center; top: 0px; right: 0px; left: 0px; margin: 0 auto;
+  .wrapper_popup{background:#fff; border-radius: 6px;; position: relative; width: 40%; min-height: 30%; text-align: center; display: flex; flex-direction: column; padding: 10px 0;
+    .close{position: absolute; right:0px; top:10px; background:none; color:#000}
+    h3{padding-top:35px;}
+    input{padding: 13px; border-radius: 6px; outline: none; background:rgb(235, 235, 235); border:none; margin-right: 10px; width: 80%; margin:10px auto;}
+    select{padding: 13px; border-radius: 6px; outline: none; background:rgb(235, 235, 235); border:none; margin-right: 10px; width: 85%; margin:10px auto;}
+    button{background-color: #60dfcd;
+    background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%); color:#fff; border:none; padding:10px; border-radius: 6px; font-size: 16px; font-family: 'Montserrat', sans-serif; cursor: pointer; outline:none; margin: 0 auto;}
+  }
+}
